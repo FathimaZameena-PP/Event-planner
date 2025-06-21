@@ -1,0 +1,11 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "title": "Sample Event",
+      "date": "2025-06-18",
+      "location": "Online",
+      "description": "Just a test event"
+    }
+  ]
+}

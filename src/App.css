@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+.btn {
+  @apply bg-[#008000] text-white border border-[#008000] rounded w-[100px] h-[25px];
+  @apply active:scale-95 active:bg-green-800 flex justify-center items-center;
+  @apply hover:bg-[#00aa00] hover:cursor-pointer;
+  @apply transition-transform duration-100;
+}
+
+.h1{
+   @apply text-4xl font-bold mb-3 text-[#008000] 
+}
+
+.h2{
+    @apply text-2xl font-bold 
+}
+
+.h3{
+    @apply text-lg font-semibold mb-9
+}
+
+.h6{
+  @apply font-bold mb-3 text-[#008000] text-center mt-3 text-5xl
+}
+
+.inputfield {
+  @apply pt-[2px] pb-[2px] pl-[5px] mt-[4px] mb-[9px] border border-[#ccc] rounded w-[120%];
+  @apply focus:[border-width:1.5px] focus:border-[#2e2b27] focus:outline-none focus:ring-0;
+}
+
+
+.mainborder{
+  @apply border-2 border-[#ccc] w-fit h-fit pt-[5.5vh] pb-[7.5vh] pl-[6vw] pr-[17vw] my-[20px] bg-[#f9f9f9] rounded-[8px] mx-auto;
+  @apply w-[80vw] max-w-[500px];
+}
+
+.homebtn {
+  @apply w-[90px] h-[25px] rounded-lg flex justify-center items-center;
+  @apply bg-white text-[#256d24] border border-[#256d24];
+  @apply font-medium tracking-wide;
+  @apply shadow-sm;
+  @apply cursor-pointer;
+  @apply transition-all duration-200 ease-in-out;
+  
+  @apply hover:bg-[#eaf5ea] hover:text-[#1b4b15];
+  @apply active:scale-95 active:bg-[#1b4b15] active:text-white;
+}
+
+.eventcardborder{
+  @apply border-[1.4px] border-[#ccc] w-fit h-fit pt-[1px] pb-[6px] pl-[25px] pr-[17vw] my-[20px] bg-[#f9f9f9] rounded-[4px] mx-auto;
+  @apply w-[70vw] max-w-[500px]; 
+}
+
+
+
+
